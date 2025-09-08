@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Week-6 web development assignment">
+    <meta author="Ayuba Lucky">
+    <title>Week-6 Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Congrats! on making it to week 6</h2>
+    <p>Click the button below to get your prize.</p>
+    <button id="prizebtn">Thank you</button>
+    <div id="container"></div>
+
+    <div id="toggle">
+        <h3>this section is for toggle</h3>
+        <p>Click the button to see some cool colors</p>
+        <button id="togglebtn">click me</button>
+    </div>
+
+    <!-- Simple Form -->
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name">
+        <div class="error" id="nameError"></div>
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email">
+            <div class="error" id="emailError"></div>
+        </div>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass">
+            <div class="error" id="passError"></div>
+        </div>
+        <button type="submit">Submit</button>
+        <div class="error" id="errorMessage"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
